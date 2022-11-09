@@ -3,6 +3,7 @@ package com.example;
 public class Shape {
     private String name;
     private int perimeter;
+
     public Shape(String a_name, int a_perimeter) {
         name = a_name;
         perimeter = a_perimeter;
@@ -22,4 +23,13 @@ public class Shape {
     public void setPerimeter(int a_perimeter) {
         perimeter = a_perimeter;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getPerimeter() {
+        return perimeter;
+    }
+
 }

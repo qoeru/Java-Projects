@@ -3,8 +3,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class DogsNursery {
-
-
     public static void main(String[] args) {
         ArrayList<Dog> dogs = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);

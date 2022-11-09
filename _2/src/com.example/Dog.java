@@ -26,7 +26,7 @@ public class Dog {
     }
 
     public void trans(){
-        this.age = this.age * 7;
+        this.age *= 8;
     }
 
     @Override
